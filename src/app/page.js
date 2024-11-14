@@ -17,6 +17,9 @@ export default function Home() {
     } else if (value === "C" || value === "AC") {
       setResult("");
       setExpr("");
+    } else if (value === "+/-") {
+      setResult(result * -1);
+      setExpr(expr * -1);
     } else {
       setExpr((prevExpr) => prevExpr + value);
     }
