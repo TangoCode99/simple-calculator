@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col items-center p-16">
-      <h1 className="text-4xl font-bold mb-10">Simple Calculator</h1>
+      <h1 className="text-4xl underline font-bold mb-10">Calculator</h1>
       <div className="bg-white p-6 rounded-lg shadow-lg">
         <input
           type="text"
